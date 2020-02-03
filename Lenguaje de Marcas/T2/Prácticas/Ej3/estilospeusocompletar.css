@@ -1,0 +1,81 @@
+/* mostrar todos los bordes de la tabla con el tamaño, estilo y color que elija */
+table, td, th{
+	border: 2px;
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+
+/* Utilizando únicamente peudoclases da color de fondo verde a las casillas que contienen horas */
+ td:first-child{
+	background-color: #0AFF00;
+}
+
+
+/* Utilizando únicamente pseudoclases da color de fondo amarillo a la celda de recreo */
+tr:nth-child(3){
+	background-color: #FFFA00;
+}
+
+
+/* Cambiar los estado de los enlaces para que:
+
+ Nunca estén subrayados
+ Si están visitados se muestren en rojo
+ Si no están visitado se muestren en verde */
+a:link{
+	text-decoration: inherit;
+	color: green;
+}
+a:visited{
+	color: red;
+}
+
+/* Utilizando pseudoclases hacer que cuando pasemos el ratón sobre la columna del viernes
+aumente el tamaño de letra al doble */
+thead tr th:last-child:hover{
+	font-size: 200%;
+}
+
+
+/* Utilizando pseudoelementos Haz que la primera letra de los días tenga el doble de tamaño*/
+thead tr th:first-letter{
+	font-size: 200%;
+}
+
+
+/* Añade un borde rojo, con espacio en su interior superior a 5px, a los campos obligatorios */
+#destino{
+	border-color: red;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Añade un * en rojo detrás de las etiquetas */
+label:after{
+	content: "*";
+	color: red;
+}
+
+caption.ventana {
+border-bottom:1px dashed blue;
+cursor:pointer;
+position:relative;
+}
+
+caption.ventana:hover::after {
+content: attr(data-descr);
+color: red;
+
+
+background: green;
+
+position: relative;
+
+
+
+min-width: 100px;
+opacity:0.95;
+}

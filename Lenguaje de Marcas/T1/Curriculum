@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = es>
+	<head>
+		<meta charset = "UTF-8" >
+			<title>CURRICULUM VITAE</title>
+	</head>
+	<body>
+	<h1 style = "color:#8174DF" align = "center"><font face = "broadway">CURRICULUM</font></h1>
+	<hr width = 400 size = 2 align = "center" color = "#610B0B">
+		<!-- hr es una linea horizontal -->
+		
+	<ul style = "list-style-type: circle">
+		<li style="color:blue"> Nombre :  Álvaro Cañizares Ramallo</li>
+		<li> Dirección : C/ Las Norias 19</li>
+		<li> Teléfono</li>
+			<ol type = "A">
+			<li> Móvil : 657 188 407 </li>
+			<li> Fijo : 91 638 43 53 </li>
+			</ol>
+
+	<table border = "1" style = "border-collapse:collapse" bordercolor = "red" width = "400">
+		<tr>
+			<td colspan = 2 align = "center" >Idiomas</td>
+			
+		</tr>
+		<tr align = "center">
+			<td></td>
+			<td>Nivel</td>
+			
+		</tr>
+		<tr align = "center">
+			<td>Inglés</td>
+			<td></td>
+			
+		</tr>
+		<tr align = "center">
+			<td>Francés</td>
+			<td></td>
+			
+		</tr>
+		<tr align = "center">
+			<td>Alemán</td>
+			<td></td>
+			
+		</tr>
+	
+	
+	</body>
+</html>

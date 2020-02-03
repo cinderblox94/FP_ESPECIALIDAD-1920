@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=”es”>
+    <head>
+        <meta charset=”UTF-8” >
+            <title>formulario básico</title>
+    </head>
+    <body>
+      <form action="mailto:direcciondelcorreo@correo.com" method="post" enctype="text/plain">
+       <label for="nombre">Nombre:</label>
+       <input type="text" name="nombre"> 
+       <br><br>
+	<label for="fechanac">Fecha de Nacimiento</label>
+	<input type="date" name="fechanac">
+     	<br>
+	<br>
+        <label for="comunidad">CCAA:</label>     
+        <select name="comunidad">
+        	<option>Andaluc&iacute;a</option>
+        	<option>Arag&oacute;n</option>
+        	<option>Baleares</option>
+		<option selected>Madrid</option>
+        </select>
+       <br> 
+       <br> 
+        <label for="genero">Sexo</label>
+        <p>
+        <input type="radio" name="genero" value="masculino">Hombre<br>
+        </p>
+        <p>
+        <input type="radio" name="genero" value="fememino" checked>Mujer<br>
+        </p>
+        <br> 
+        <br>  
+        <fieldset>     
+        <label for="dispositivos">Dispositivos electr&oacute;nicos que usa</label><br>
+        <input type="checkbox" name="dispositivos" value="pc">PC<br>
+        <input type="checkbox" name="dispositivos" value="tablet">Tablet<br>
+        <input type="checkbox" name="dispositivos" value="movil">M&oacute;vil>
+        <p>
+	<br> 
+        <br> 
+ 	<label for="editor">Editores LM</label><br>
+	<input list="editor">
+	    <datalist id="editor">
+        	<option value="Atom">
+        	<option value="NotePad++">
+        	<option value="VsCode">
+        	<option value="Sublime">
+        	<option value="Brackets">
+    	    </datalist>
+	</p>
+	<p>
+        <input type="submit" value="Enviar Solicitud" />
+        </p>
+        <p>
+        <input type="reset" value="Borrar">
+        </p>
+	<br> 
+        <br> 
+	<input type="button" value="Click me">
+      </form>
+    </body>
+</html>

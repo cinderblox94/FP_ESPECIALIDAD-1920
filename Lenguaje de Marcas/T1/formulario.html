@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = es>
+	<head>
+		<meta charset = "UTF-8" >
+			<title>Formulario</title>
+	</head>
+	<body bgcolor = "#2EFEF7">
+	
+	
+	
+	<form action = "mailto:direcciondecorreo@correo.com" method = "post" enctype = "text/plain">
+		
+	<fieldset>
+	<leyend> Datos personales </leyend>	
+		
+		<p>
+		<label for name="nombre"> Nombre: </label>
+		<input type="text" name="nombre" placeholder="Inserta un nombre">
+		
+		</p>
+		<p>
+			<label for = "apellido1"> 1er Apellido</label>
+			<input type = "text" name = "apellido1" placeholder = "Inserta un Apellido" required>
+		</p>
+		<p>
+			<label for = "apellido2"> 2o Apellido</label>
+			<input type = "text" name = "apellido2" placeholder = "Inserta un Apellido" required>
+		</p>
+		<label for = "Provincia"> Provincia: </label>
+			<select name = "Provincia">
+			
+			<optgroup label = "Aragon">
+			<option value = "Z"> Zaragoza</option>
+			<option> Huesca</option>
+			<option> Teruel </option>
+			</optgroup>
+			
+			<optgroup label = "Valencia">
+			<option value = "V"> Valencia</option>
+			<option> Alicante</option>
+			<option> Castellon </option>
+			</optgroup>
+			
+			
+			</select>
+		<br>
+		<br>
+		
+		<input type="submit" value= "Enviar"/>
+	</fieldset>
+	
+	<label for ="dispositivos"> Dispositivos Electronicos </label><br>
+		<input type ="checkbox" name= "Dispositivos" value = "pc">PC<br>
+		<input type ="checkbox" name= "Dispositivos" value = "Tableta" >Tableta<br>
+		<input type ="checkbox" name= "Dispositivos" value = "Movil">Movil<br>
+		<input type ="checkbox" name= "Dispositivos" value = "Piedra">Piedra<br>
+	</form>
+	</body>
+</html>
